@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+<img src="nike.jpg" width="150px" height="150" style="margin-left:22%">
+<img src="reebok.gif" height="100px" width="260" style="margin-left:20%">
+table, th, td {
+    border: 1px solid #C1C1C1;
+    border-collapse: collapse;
+}
+.bg{
+      background: url(adidas.png) no-repeat;
+      background-size: 170px 150px;
+	  margin-left: 24%;
+      }
+.bg2{
+      background: url(nike.jpg) no-repeat;
+      background-size: 150px 150px;
+	  margin-left: 5%;
+      }
+    .mask{
+             float: left;
+             width: 160px;
+             height: 160px;
+             border-radius:50%;
+             box-shadow: inset 0 0 1px 250px rgba(0,0,0,0.2);
+             transition: all 0.5s ease-in;
+             transition: box-shadow 600ms ease-in-out;
+             -webkit-border-radius:50%;
+             -webkit-box-shadow: inset 0 0 1px 250px rgba(0,0,0,0.2);
+             -webkit-transition: box-shadow 700ms ease-in-out;
+             -moz-border-radius:50%;
+             -moz-box-shadow: inset 0 0 1px 250px rgba(0,0,0,0.2);
+             -moz-transition: box-shadow 400ms ease-in-out;
+             -o-transition: box-shadow 400ms ease-in-out;
+             -ms-transition: box-shadow 400ms ease-in-out;
+                }
+        .mask:hover {
+              opacity: 1;
+              -webkit-transition: all 0.5s ease-in;
+              -moz-transition: all 0.5s ease-in;
+              -o-transition: all 0.5s ease-in;
+              transition: all 0.5s ease-in;
+              box-shadow: inset 0 0 0 0 rgba(0,0,0,0.4), 0 0 10px rgba(0,0,0,0.3);
+                              }
+.bg3{
+      background: url(reebok.gif) no-repeat;
+      background-size: 280px 150px;
+      }
+    .mask3{
+             float: left;
+             width: 280px;
+             height: 150px;
+             border-radius:50%;
+             box-shadow: inset 0 0 1px 250px rgba(0,0,0,0.2);
+             transition: all 0.5s ease-in;
+             transition: box-shadow 600ms ease-in-out;
+             -webkit-border-radius:50%;
+             -webkit-box-shadow: inset 0 0 1px 250px rgba(0,0,0,0.2);
+             -webkit-transition: box-shadow 700ms ease-in-out;
+             -moz-border-radius:50%;
+             -moz-box-shadow: inset 0 0 1px 250px rgba(0,0,0,0.2);
+             -moz-transition: box-shadow 400ms ease-in-out;
+             -o-transition: box-shadow 400ms ease-in-out;
+             -ms-transition: box-shadow 400ms ease-in-out;
+                }
+        .mask3:hover {
+              opacity: 1;
+              -webkit-transition: all 0.5s ease-in;
+              -moz-transition: all 0.5s ease-in;
+              -o-transition: all 0.5s ease-in;
+              transition: all 0.5s ease-in;
+              box-shadow: inset 0 0 0 0 rgba(0,0,0,0.4), 0 0 10px rgba(0,0,0,0.3);
+                              }
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title> Shoe Pusher </title>
+</head>
+
+<body>
+<video width="320" height="240" src="adidas.mp4">
+</video>
+
+    <div id="page">
+		
+        <div id="header">
+			<ul>
+				<li style="margin-right:12%"><a href="home.php">Shoe Pusher</li>
+           	   	<li><a href="Home.php">Home</a></li>
+               	<li><a href="Products.php">Products</a></li>
+                <li><a href="Services.php">Services</a></li>
+                <li><a href="About.php">About</a></li>
+                <li><a href="Contact.php">Contact</a></li>
+            </ul>
+        </div>
+  
+        <div id="main">
+        
+        	<div class="main_top">
+            	<h1 style="font-family: calibri"> Best Seller </h1>
+            </div>
+            
+           	<div class="main_body">
+            <table width="97%">
+				<tr>
+					<td><a href="adidas.php"><div class="mask bg"></div></a></td>
+					<td><a href="nike.php"><div class="mask bg2"></div></a></td>
+					<td><a href="rebook.php"><div class="mask3 bg3"></div></a></td>
+				</tr>
+			</table>
+            </div>
+            
+           	<div class="main_bottom"></div>
+            
+        </div>
+        
+        
+        
+        <div id="footer">
+        <p>
+        
+        </p>
+        </div>
+        
+    </div>
+</body>
+</html>
